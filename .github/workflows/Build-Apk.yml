@@ -10,6 +10,8 @@ on:
       - 'LICENSE'
       - '*.md'
       - '.github/**'
+env:
+  GITHUB_DEPENDENCY_GRAPH_ENABLED: true
 
 jobs:
   build:
